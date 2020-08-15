@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .mySlides {display: none;}
+ #slid_s,img {
+   vertical-align: middle;
+ }
+ /* Slideshow container */
+ .slideshow-container {
+   width: 100%;
+   position: relative;
+   margin-left: -549px;
+   margin-top: -25px;
+ }
+ /* The dots/bullets/indicators */
+ .dot {
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+ .active {
+   background-color: #717171;
+ }
+ /* Fading animation */
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ @-webkit-keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ @keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ /*slid finish */
+ #first_part{
+   height: 400px;
+   width: 1100px;
+   background-color: #ecf0f1;
+   border-radius: 10px;
+   box-shadow:  2px 2px 10px 7px #aeb6bf;
+   margin-top: 25px;
+   margin-left: 110px;
+   padding-top: 25px;
+   padding-left: 30px;
+   padding-right: 15px;
+   font-family: 'Montserrat', sans-serif;
+ }
+ #border{
+   border-bottom: black 12px solid;
+   width: 40px;
+   margin-left: 3px;
+ }
+ #text_{
+   font-size: 20px;
+ }
+ #text_1{
+   padding-top: 35px;
+ }
+ #text_2{
+   padding-top: 50px;
+ }
+ #second_part{
+   height: 350px;
+   width: 1100px;
+   background-color: #ecf0f1;
+   border-radius: 10px;
+   box-shadow:  2px 2px 10px 7px #aeb6bf;
+   margin-top: 25px;
+   margin-left: 110px;
+   padding-top: 25px;
+   padding-left: 30px;
+   padding-right: 15px;
+   font-family: 'Montserrat', sans-serif;
+ }
+ #list{
+   padding-top: 30px;
+   padding-left: 60px;
+ }
+ #third_part{
+   height: 480px;
+   width: 1100px;
+   background-color: #ecf0f1;
+   border-radius: 10px;
+   box-shadow:  2px 2px 10px 7px #aeb6bf;
+   margin-top: 25px;
+   margin-left: 110px;
+   padding-top: 25px;
+   padding-left: 30px;
+   padding-right: 15px;
+   font-family: 'Montserrat', sans-serif;
+ }
+ .enter{
+   margin-top: 20px;
+   width: 400px;
+   height: 50px;
+   font-size: 15px;
+   border: none;
+   border-radius: 9px;
+   padding-left: 30px;
+ }
+ .enter:hover{
+      box-shadow: 2px 2px 10px 7px  #85c1e9 ;
+ }
+ #button{
+   margin-top: 50px;
+   width: 150px;
+   height: 70px;
+   font-size: 20px;
+   font-family: 'Montserrat', sans-serif;
+   border-radius: 9px;
+   border: none;
+   background-color: #a3e4d7;
+ }
+ #button:hover{
+   background-color: #48c9b0;
+ }
+ #box_1{
+   height: 490px;
+   width: 500px;
+   float: left;
+ }
+ #box_2{
+   height: 400px;
+   width: 520px;
+   float: right;
+ }
+ .ext_{
+   width: 200px;
+   height: 50px;
+   padding-left: 13px;
+   margin-top: 40px;
+   margin-left: 3px;
+   border-radius: 9px;
+   border: none;
+ }
+ .ext_:hover{
+   box-shadow: 2px 2px 4px 6px  #85c1e9 ;
+ }
+ #button_{
+   margin-top: 20px;
+   width: 90px;
+   height: 50px;
+   margin-left: 3px;
+   border-radius: 9px;
+   font-size: 15px;
+   border: none;
+   background-color:#a3e4d7;
+ }
+ #button_:hover{
+   background-color: #48c9b0;
+ }
+ #result_Show{
+   height: 50px;
+   width: 300px;
+   margin-left: 3px;
+   margin-top: 30px;
+ }
+ /**calculating result*/
+ #result{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   text-align: center;
+   padding-top: 50px;
+ }
+ #range{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin-top: -90px;
+ }
+ #col{
+   width: 1125px;
+   height: 150px;
+   border-radius: 10px;
+   margin-left: 111px;
+ }
+ #area,img{
+  margin-left: 550px;
+  margin-top: 25px; 
+  height: 440px;
+ }
+ #ground{
+   height: 200px;
+   width: 1160px;
+   margin-left: 101px;
+   margin-top: -1200px;
+   border-radius: 9px;
+ }
+ #bottom{
+   border-bottom: 1px black solid;
+   margin-top: -50px;
+ }
+ #foot{
+   font-size: 15px;
+   font-family: sans-serif;
+   text-align: center;
+   height: 50px;
+   background-color: black;
+   color: blanchedalmond;
+   position: relative;
+   width: 100%;
+ }

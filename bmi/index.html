@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI TEST</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image/tab_photo.jpg">
+</head>
+<body>
+<!---slid show-->
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="image/bmi1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<img id="slid_s" src="image/bmi2.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img id="slid_s" src="image/bmi3.png" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img id="slid_s" src="image/bmi4.jpg" style="width:100%">
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+<!---slid show finsh-->    
+<div id="first_part">
+  <h1 id="head_">BMI <div id="border"></div></h1>
+  <div id="text_">
+  <p id="text_1">BMI stands for Body Mass Index. It is a measure to classify people : underweight, normal 
+      weight, overweight and obese. It is the ratio of your weight in kilograms to the square of 
+      your height in meters. People with high BMI have too much body weight or body fat for their 
+      height.
+  </p>
+  <p id="text_2">
+      BMI gives you a rough estimate of your overall fitness and possibility of developing chronic 
+      diseases like heart disease, high blood pressure, osteoarthritis, type 2 diabetes, gallstones 
+      etc. A highly muscular person may have a high BMI without any health risk. BMI was introduced 
+      in the 1830s by Lambert Adolphe Jacques Quetelet, a Belgian mathematician. It is also known as 
+      Quetelet index.
+  </p>
+</div>
+</div>
+<!----Second part--> 
+<div id="second_part">
+  <h1 id="head_">why should know about BMI? <div id="border"></div></h1>
+  <div id="text_">
+      <p id="text_1">
+      Your BMI is a ratio of your weight to your height, and it helps your determine what your weight category is.
+      </p>
+      <ul type = "square" id="list">
+          <li>If your BMI is between 18.5 and 24.9, you are at a normal or healthy weight.</li>
+          <li>If your BMI between 25.0 and 29.9, you are overweight.</li>
+          <li>If your BMI is 30 or higher, you are obese.</li>
+      </ul>
+      <p id="text_2">If you’re obese, your risk is higher for diabetes, high blood pressure, high cholesterol and heart disease. </p>
+  </div>
+</div> 
+<!----Third part-->
+<!---Calculating-->
+<div id="third_part">
+  <div id="box_1">
+  <h1 id="head_">Let's Check Your BMI<div id="border"></div></h1>
+  <p id="text_1">Enter your weight:</p>
+  <input type="text" id="input" class="enter" placeholder="Enter your weight" ><br>
+  <p id="text_2">Enter Your Height:</p>
+  <input type="text" id="input_" class="enter" placeholder="Enter your height" ><br>
+  <button id="button">Result</button>   
+</div>
+<div id="box_2">
+  <h1 id="head_">Convert feet to meter<div id="border"></div></h1>
+  <input type="text" id="conver" class="ext_" placeholder="feet" >
+  <input type="text" id="conver_" class="ext_" placeholder="inche" ><br>
+  <button id="button_">Convert</button><br>
+  <div id="result_Show"></div>
+</div>
+</div>
+<div id="result"> </div>
+  <div id="col"></div>
+  <div id="range"></div>    
+  <div id="photo_Show"></div>
+  <div id="area"></div>
+ <div id="bottom"></div>
+ <div id="foot"> <p>© Copyright 2020 BMI TEST. All Rights Reserved </p> </div>
+<script src="program.js"></script>
+</body>
+</html>
